@@ -26,7 +26,7 @@ Windows 用戶選擇 `jTessBoxEditorFX-2.0-Beta.zip`
 - 首先，設置一些參數：
   - 在 Trainer 標籤頁，
     - Tessract Executables 設為 `<jTessBoxEditorFolder>\tesseract-ocr` 
-    - Training Data 設為 你存放訓練圖片的目錄。
+    - Training Data 設為 你存放訓練圖片的目錄。(PDF要先轉為單頁圖片)
     - Language 和 Bootstrap Language 都設為 `eng`
     - RTL 不選
     - Training Mode 選擇 `Make Box File Only`
@@ -67,7 +67,7 @@ Tesseract 會按英文識別來做一個初步的字符切割。
 
 > 要記得經常按 `Save` 保存哦。我個人發現似乎有的時候Save不正常，保險起見可以用 `Save As` 備份到另外一個位置，以免丟失進度。
 
-# 第 5 步 標註字符
+## 第 5 步 標註字符
 
 矯正完框框的位置，下一步是要告訴 Tesseract 每一個框框裡面對應的是什麼字符。
 
